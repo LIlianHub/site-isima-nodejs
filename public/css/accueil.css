@@ -1,0 +1,35 @@
+/*Présentation*/
+
+.presentation-index {
+    display: flex;
+    flex-direction: row;
+}
+
+.presentation-index-photo {
+    flex: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+.presentation-index-text {
+    flex: 75%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.photo-index {
+    width: 80%;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .presentation-index {
+        flex-direction: column;
+    }
+    .photo-index {
+        width: 30%;
+    }
+}

@@ -1,0 +1,56 @@
+/* Menu projet index*/
+
+.boite-projet{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, 45%);
+    justify-content: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+
+}
+
+.boite-projet-content{
+    border: solid rgb(53, 52, 52);
+    background-color: rgb(53, 52, 52);
+    text-align: center;
+    margin: 2.5%;
+}
+
+.boite-projet-content:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+    border: solid white;
+}
+
+.boite-projet-content img{
+    width: 100%;
+    height: 20vw;
+}
+
+.boite-projet-content p{
+    font-size: 2vw;
+    padding: 1%;
+    color: white;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .boite-projet{
+        grid-template-columns: repeat(auto-fill, 100%);
+    }
+
+    .boite-projet-content{
+        margin: 5%;
+    }
+
+    .boite-projet p{
+        font-size: 5vw;
+        padding: 2%;
+    }
+
+    .boite-projet-content img{
+        height: 50vw;
+    }
+   
+}

@@ -1,0 +1,21 @@
+@import "template.css";
+
+.banniere-projet{
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 15vw;
+}
+
+.banniere-projet img{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .banniere-projet{
+        height: 35vw;
+    }
+   
+}

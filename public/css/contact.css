@@ -1,0 +1,122 @@
+.formulaire {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.obligatoire {
+    font-size: 1.5vw;
+    color: red;
+    font-weight: bold;
+}
+
+.text-alerte{
+    color: white;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+
+form p{
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+
+/*formulaire esthétique*/
+textarea{
+    resize: none;
+    width: 80%;
+    height: 15vw;
+    border-radius: 5px;
+    font-size: 1vw;
+}
+
+textarea:hover{
+    border-color: rgb(33, 157, 179);;
+    border-width: 2px;
+
+}
+
+input{
+    width: 20%;
+    height: 2vw;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1vw;
+}
+
+input:hover{
+    border-color: rgb(33, 157, 179);;
+    border-width: 2px;
+}
+
+.bouton-envoie{
+    height: 3vw;
+}
+
+
+/*Reseau sociaux*/
+.boite-reseau{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.boite-reseau a{
+    font-size: 1.5vw;
+    color: rgb(0, 0, 0);
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline-block;
+}
+
+.boite-reseau img{
+    width: 70%;
+    vertical-align: middle;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(66deg) brightness(108%) contrast(98%);
+}
+
+.boite-reseau a:hover{
+    color: inherit;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(66deg) brightness(108%) contrast(98%);
+}
+
+
+@media screen and (max-width: 1000px) {
+    input{
+        height: 5.5vw;
+        width: 80%;
+        font-size: 4.5vw;
+    }
+    textarea{
+        height: 50vw;
+        font-size: 4.5vw;
+        width: 90%;
+    }
+
+    .boite-reseau{
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+
+    .boite-reseau a{
+        display: block;
+        font-size: 4.5vw;
+    }
+
+    .boite-reseau img{
+        width: 15%;
+        vertical-align: middle;
+    }
+    
+    .bouton-envoie{
+        width: 30%;
+        height: 9vw;
+    }
+
+    .obligatoire {
+        font-size: 4.5vw;
+    }
+}

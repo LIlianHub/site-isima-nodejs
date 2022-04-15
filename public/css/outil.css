@@ -1,0 +1,16 @@
+.edt{
+    text-align: center;
+}
+
+.edt iframe{
+    width: 70%;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .edt iframe{
+        width: 100%;
+    }
+
+}

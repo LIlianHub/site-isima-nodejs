@@ -1,0 +1,59 @@
+@import "reset.css";
+/* Font */
+
+@font-face {
+    font-family: "Pour le titre";
+    src: url("font/b28b8b56b2368e797d2c09f5696de8b5.woff2") format("woff2"),
+           url("font/b28b8b56b2368e797d2c09f5696de8b5.woff") format("woff");
+   }
+   
+
+/*Body*/
+
+html, body {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+hr{
+    border-top: 0.2vw solid black;
+    width: 80%;
+    margin: 2%;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content h1{
+    font-family: "Pour le titre", Arial, serif;
+    font-size: 5vw;
+    color: black;
+    margin-bottom: 2%;
+}
+
+.content h2{
+    font-family: "Pour le titre", Arial, serif;
+    font-size: 3.5vw;
+    color: black;
+    margin-bottom: 1%;
+}
+
+.content a{
+    font-family: "Pour le titre", Arial, serif;
+    font-size: 2vw;
+    color: rgb(33, 157, 179);
+    text-decoration: none;
+}
+
+.content a:hover{
+    text-decoration: underline;
+}
