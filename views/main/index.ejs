@@ -212,11 +212,11 @@
         <div class="sec-droite">
             <div class="boite-projet">
                 <%
-                    for(let i = 1; i <= nb_projet ; i++) {
+                    for(let i = 0; i < nb_projet ; i++) {
                 %>
-                <a class="boite-projet-content" href="projet<%= i %>" alt="vers projet <%= i %>">
-                    <img src="img/soon.png" alt="test" />
-                    <p>Projet numero <%= i %></p>
+                <a class="boite-projet-content" href="projet-<%= info_projet[i]['titre'] %>" alt="vers projet <%= info_projet[i]['titre'] %>">
+                    <img src="<%= info_projet[i]['img'] %>" alt="test" />
+                    <p><%= info_projet[i]['titre'] %></p>
                 </a>
 
                 <%}%>
