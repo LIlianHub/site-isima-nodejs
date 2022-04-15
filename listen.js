@@ -47,7 +47,6 @@ listen.get('/projet-:projet_nom', function(req, res) {
   let all_projet = projet.recup_all_projet();
   if(all_projet.indexOf(req.params.projet_nom) != -1){ //l'article existe
     let data_page = projet.rempli_projet(req.params.projet_nom);
-    console.log(data_page);
     res.render('projet/projet_temp', {
       titre: data_page['titre'],
       banniere: data_page['banniere'],
@@ -58,7 +57,6 @@ listen.get('/projet-:projet_nom', function(req, res) {
     res.render('code_html/code', {num_erreur: 404, message: "Page introuvable, peut être que le projet n'existe plus."});
   }
 });
-
 
 /*Requete Ajax mail*/
 listen.post('/ajax/envoiemail', function(req, res){
