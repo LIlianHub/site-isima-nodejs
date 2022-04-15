@@ -1,6 +1,6 @@
-# Mon serveur ISIMA en NODEJS
+# Mon Serveur ISIMA version NodeJs
 
 ## A faire
 - Voir la sécurité en général de l'appli
 - Voir pour les mails pour eviter d'être spammé
-- Regler probleme dans projet le chemin de css correspond pas car sous dossier
+- Regler probleme chemin css code erreur en mettant chemin direct
