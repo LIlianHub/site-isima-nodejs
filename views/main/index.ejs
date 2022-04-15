@@ -214,7 +214,7 @@
                 <%
                     for(let i = 0; i < nb_projet ; i++) {
                 %>
-                <a class="boite-projet-content" href="projet-<%= info_projet[i]['titre'] %>" alt="vers projet <%= info_projet[i]['titre'] %>">
+                <a class="boite-projet-content" href="projet-<%= info_projet[i]['url'] %>" alt="vers projet <%= info_projet[i]['titre'] %>">
                     <img src="<%= info_projet[i]['img'] %>" alt="test" />
                     <p><%= info_projet[i]['titre'] %></p>
                 </a>

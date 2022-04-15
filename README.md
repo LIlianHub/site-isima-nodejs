@@ -8,3 +8,13 @@
 ## Login Mail
 - dans un fichier nommé "login_mail"
 - ligne 1 le mail ligne 2 le mdp
+
+## Template fichier projet
+
+`url
+lien de l'image d'apperçu sur l'index
+le titre
+lien de la bannière du projet
+`
+
+

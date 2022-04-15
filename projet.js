@@ -18,10 +18,11 @@ function recup_all_projet_info(){
   let info_index = new Array();
   for(let fichier of fichiers){
     let contenu = fs.readFileSync(dir_projet + fichier, 'utf8')
-    let data = contenu.split('\n', 2); /*on veut juste les 2 premiers lignes*/
+    let data = contenu.split('\n', 3); /*on veut juste les 3 premiers lignes*/
     info_index.push({
-      titre: data[0],
-      img: data[1]
+      url: data[0],
+      img: data[1],
+      titre: data[2]
     });
   }
   return info_index;
@@ -32,10 +33,11 @@ function rempli_projet(nom){
   let contenu = fs.readFileSync(dir_projet + nom, 'utf8')
   let data = contenu.split('\n');
   let info = {
-    titre: data[0],
-    banniere: data[2],
+    titre: data[2],
+    banniere: data[3],
   }
   data.shift(); /*je supprime tout le contenu du tableau sauf la partie description*/
+  data.shift();
   data.shift();
   data.shift();
   info['description'] = data.join('\n'); //on recupere toute la description
