@@ -12,7 +12,7 @@
 ## Template fichier projet par ligne
 
 1. url
-2. lien de l'image d'apperçu sur l'index
+2. lien de l'image d'aperçu sur l'index
 3. le titre
 4. lien de la bannière du projet
 5. Toutes les autres lignes: la description
