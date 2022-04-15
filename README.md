@@ -9,12 +9,12 @@
 - dans un fichier nommé "login_mail"
 - ligne 1 le mail ligne 2 le mdp
 
-## Template fichier projet
+## Template fichier projet par ligne
 
-`url
-lien de l'image d'apperçu sur l'index
-le titre
-lien de la bannière du projet
-`
+1. url
+2. lien de l'image d'apperçu sur l'index
+3. le titre
+4. lien de la bannière du projet
+5. Toutes les autres lignes: la description
 
 
